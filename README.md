@@ -6,7 +6,6 @@
 > *"每一位青年的困惑，都值得被认真倾听。每一封回信，都是一次真诚的陪伴。*
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
-[![Python 3.9+](https://img.shields.io/badge/Python-3.9%2B-blue.svg)](https://python.org)
 [![Claude Code](https://img.shields.io/badge/Claude%20Code-Skill-blueviolet)](https://claude.ai/code)
 [![AgentSkills](https://img.shields.io/badge/AgentSkills-Standard-green)](https://agentskills.io)
 <br>
@@ -43,22 +42,27 @@
 
 ## 安装
 
-### Claude Code / Trae IDE
+### Claude Code 
 
 ```bash
-# 安装到当前项目
-mkdir -p .trae/skills
-# 将 SKILL.md 放入 .trae/skills/青年信箱/ 目录
+# 安装到当前项目（在 git 仓库根目录执行）
+mkdir -p .claude/skills
+git clone https://github.com/perkfly/ex-skill .claude/skills/create-ex
 
-# 或安装到全局
-# 将 SKILL.md 放入 ~/.trae/skills/青年信箱/ 目录
+# 或安装到全局（所有项目都能用）
+git clone https://github.com/perkfly/ex-skill ~/.claude/skills/create-ex
+```
+### OpenClaw 
+
+```bash
+git clone https://github.com/lt411122/Youth-Mailbox.git ~/.openclaw/workspace/skills/youth-mailbox
 ```
 
 ---
 
 ## 使用
 
-在 Claude Code / Trae IDE 中输入：
+在 Claude Code / OpenClaw 中输入：
 
 ```
 Use Skill: 青年信箱
