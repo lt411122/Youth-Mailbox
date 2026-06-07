@@ -47,10 +47,10 @@
 ```bash
 # 安装到当前项目（在 git 仓库根目录执行）
 mkdir -p .claude/skills
-git clone https://github.com/perkfly/ex-skill .claude/skills/create-ex
+git clone https://github.com/lt411122/Youth-Mailbox.git .claude/skills/youth-mailbox
 
 # 或安装到全局（所有项目都能用）
-git clone https://github.com/perkfly/ex-skill ~/.claude/skills/create-ex
+git clone https://github.com/lt411122/Youth-Mailbox.git ~/.claude/skills/youth-mailbox
 ```
 ### OpenClaw 
 
